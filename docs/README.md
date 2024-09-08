@@ -38,4 +38,4 @@
 
 ### CSS フレームワーク
 
-- tailwind
+- Tailwind CSS
