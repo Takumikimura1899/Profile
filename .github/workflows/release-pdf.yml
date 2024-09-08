@@ -1,0 +1,29 @@
+name: Release PDF
+
+on:
+  pull_request:
+    branches: [main]
+    paths: ['docs/README.md']
+  workflow_dispatch:
+
+jobs:
+  Release:
+    name: Release PDF
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      - run: bun run build:pdf
+      - name: Create a draft Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ github.event.pull_request.title }}
+          draft: true
+          fail_on_unmatched_files: true
+          files: docs/README.pdf
+          name: Release ${{ github.ref}}
