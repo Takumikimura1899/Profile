@@ -8,7 +8,14 @@
 | 生年月   | 1992 年 12 月                                |
 | 居住地   | 神奈川県                                     |
 | 最終学歴 | 山形県立山形工業高等学校 機械システム科      |
+| 職歴概要 | フロントエンドエンジニア 3 年　              |
 | 資格     | 普通自動車第一種運転免許 <br/> IT パスポート |
+
+## 技術記事・GitHub
+
+- [Zenn](https://zenn.dev/kimura141899)
+- [個人ブログ](https://astro-blog-7s5.pages.dev/)
+- [GitHub](https://github.com/Takumikimura1899)
 
 ## 意欲・興味
 
@@ -28,26 +35,32 @@
 | TypeScript | 3 年     |
 | Node.js    | 1 年     |
 
-### フレームワーク等
+### フレームワーク・ライブラリ
 
-| 名称                   | 経験年数 |
-| ---------------------- | -------- |
-| React                  | 3 年     |
-| Next.js (Pages Router) | 2 年     |
-| Next.js (App Router)   | 1 年     |
-| Nuxt.js(3 系)          | 1 年     |
-| Nuxt.js(2 系)          | 1 年     |
-| Vue.js                 | 1 年     |
-| Astro                  | 1 年     |
-| Express                | 1 年     |
+| 名称                    | 経験年数 |
+| ----------------------- | -------- |
+| React                   | 3 年     |
+| Next.js (Pages Router)  | 2 年     |
+| Next.js (App Router)    | 1 年     |
+| Nuxt.js(3 系)           | 1 年     |
+| Nuxt.js(2 系)           | 1 年     |
+| Vue.js (2 系)           | 1 年     |
+| Astro                   | 1 年     |
+| Express                 | 1 年     |
+| React Hook Form (v7)    | 1 年     |
+| useSWR (v2)             | 1 年     |
+| openapi-typescript (v6) | 1 年     |
+| Zod                     | 1 年     |
 
-### UI ライブラリ
+### UI ライブラリ・CSS フレームワーク
 
-| 名称        | 経験年数 |
-| ----------- | -------- |
-| AntDesign   | 1 年     |
-| MUI         | 1 年     |
-| Headless UI | 1 年     |
+| 名称              | 経験年数 |
+| ----------------- | -------- |
+| AntDesign (v4)    | 1 年     |
+| MUI (v5)          | 1 年     |
+| Headless UI       | 1 年     |
+| Vuetify(v3)       | 1 年     |
+| Tailwind CSS (v3) | 1 年     |
 
 ### バンドルツール
 
@@ -98,6 +111,13 @@
 | Chatwork        | 1 年     |
 | Microsoft Teams | 1 年     |
 
+### タスク管理ツール
+
+| 名称   | 経験年数 |
+| ------ | -------- |
+| Notion | 2 年     |
+| Asana  | 1 年     |
+
 ### エディタ
 
 | 名称               | 経験年数 |
@@ -109,16 +129,13 @@
 | 名称               | 経験年数 |
 | ------------------ | -------- |
 | Git                | 3 年     |
-| Notion             | 2 年     |
 | OpenAPI            | 1 年     |
-| openapi-typescript | 1 年     |
 | GAS                | 1 年     |
-
-## 技術記事・GitHub
-
-- [Zenn](https://zenn.dev/kimura141899)
-- [個人ブログ](https://astro-blog-7s5.pages.dev/)
-- [GitHub](https://github.com/Takumikimura1899)
+| Docker             | 1 年     |
+| Google Tag Manager | 1 年     |
+| Google Analytics   | 1 年     |
+| ESLint             | 3 年　   |
+| Prettier           | 3 年     |
 
 ## 職務経歴詳細
 
@@ -166,12 +183,13 @@
 
 - AWS
   - S3
-  - CloudWatch
+  - CloudWatch Logs
   - Cognito
 
-【CI/CD】
+【その他】
 
 - GitHub Actions
+- Salesforce
 
 【プロダクト概要】
 
@@ -181,7 +199,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -201,12 +219,14 @@
 
 - AWS
   - S3
-  - CloudWatch
+  - CloudWatch Logs
 
-【CI/CD】
+【その他】
 
 - GitHub Actions
 - AWS CodePipeline
+- Salesforce
+- Datadog
 
 【プロダクト概要】
 
@@ -216,7 +236,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -233,7 +253,7 @@
 - AWS
   - S3
 
-【CI/CD】
+【その他】
 
 - GitHub Actions
 
@@ -245,7 +265,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -287,7 +307,7 @@
 
 - xxx
 
-【CI/CD】
+【その他】
 
 - xxx
 
@@ -299,7 +319,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -341,7 +361,7 @@
 
 - xxx
 
-【CI/CD】
+【その他】
 
 - xxx
 
@@ -353,7 +373,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -367,7 +387,7 @@
 
 - xxx
 
-【CI/CD】
+【その他】
 
 - xxx
 
@@ -379,7 +399,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -393,7 +413,7 @@
 
 - xxx
 
-【CI/CD】
+【その他】
 
 - xxx
 
@@ -405,7 +425,7 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
 
@@ -437,7 +457,7 @@
 
 - xxx
 
-#### <プロジェクト概要を入力>
+#### 数百万人規模のイベント告知 LP 作成・運用
 
 【言語・フレームワーク】
 
@@ -447,7 +467,7 @@
 
 - xxx
 
-【CI/CD】
+【その他】
 
 - xxx
 
@@ -459,6 +479,6 @@
 
 - xxx
 
-【うまく行ったこと】
+【うまくいったこと】
 
 - xxx
