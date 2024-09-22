@@ -15,6 +15,14 @@ h2 {
   padding-bottom: 5px;
 }
 
+h3 {
+  color: #e49a33;
+}
+
+h4 {
+  color: #5294e2;
+}
+
 /* リンク */
 a {
   color: #a6e22e; /* 緑 */
