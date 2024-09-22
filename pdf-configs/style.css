@@ -1,6 +1,6 @@
 /* 基本設定 */
 body {
-  font-family: 'Consolas', monospace; /* 等幅フォント */
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
   line-height: 1.6;
   color: #f8f8f2; /* 明るいグレー */
   background-color: #272822; /* 濃いグレー */
