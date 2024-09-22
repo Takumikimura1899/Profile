@@ -7,23 +7,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  Release:
+  release:
     name: Release PDF
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 3
     permissions:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - run: bun install
-      - run: bun run build:pdf
-      - name: Create a draft Release
-        uses: softprops/action-gh-release@v1
+      - name: Run actions/checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+      - name: Run oven-sh/setup-bun
+        uses: oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5 # v2
+      - name: Run bun install
+        run: bun install --no-save
+      - name: Run bun build:pdf
+        run: bun build:pdf
+      - name: Create a draft release
+        uses: softprops/action-gh-release@c062e08bd532815e2082a85e87e3ef29c3e6d191 # v2
         with:
           body: ${{ github.event.pull_request.title }}
           draft: true
           fail_on_unmatched_files: true
           files: docs/README.pdf
-          name: Release ${{ github.ref}}
+          name: Release ${{ github.ref }}
