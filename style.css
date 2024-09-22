@@ -1,0 +1,68 @@
+/* 基本設定 */
+body {
+  font-family: 'Consolas', monospace; /* 等幅フォント */
+  line-height: 1.6;
+  color: #f8f8f2; /* 明るいグレー */
+  background-color: #272822; /* 濃いグレー */
+  padding: 2rem;
+}
+
+/* 見出し */
+h1,
+h2 {
+  color: #66d9ef; /* 水色 */
+  border-bottom: 2px solid #5294e2; /* 下線 */
+  padding-bottom: 5px;
+}
+
+/* リンク */
+a {
+  color: #a6e22e; /* 緑 */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* コードブロック */
+pre,
+code {
+  background-color: #3e3d32;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto; /* 横スクロール */
+}
+
+/* リスト */
+ul,
+ol {
+  list-style: none;
+  padding-left: 20px;
+}
+ul li::before,
+ol li::before {
+  content: '• ';
+  color: #f92672; /* 赤 */
+}
+
+/* テーブル */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #3e3d32;
+}
+
+/* その他 */
+blockquote {
+  border-left: 5px solid #ae81ff; /* 紫 */
+  padding-left: 10px;
+  margin-left: 0;
+}
